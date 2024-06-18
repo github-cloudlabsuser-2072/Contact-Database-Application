@@ -12,6 +12,7 @@ namespace CRUD_application_2.Controllers
         {
             // This method is responsible for displaying the list of users.
             // It retrieves the list of users from the userlist and passes it to the Index view.
+            
             return View("Index", userlist);
         }
  
